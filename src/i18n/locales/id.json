@@ -1,0 +1,225 @@
+{
+  "nav": {
+    "brandName": "Sukamaju Hub",
+    "brandTag": "Karang Taruna Kel. Sukamaju",
+    "home": "Beranda",
+    "about": "Tentang",
+    "activities": "Kegiatan",
+    "gallery": "Galeri",
+    "divisions": "Divisi",
+    "contact": "Kontak",
+    "join": "Gabung"
+  },
+  "hero": {
+    "badge": "Karang Taruna Kel. Sukamaju",
+    "title": "Wujudkan Potensi <span class='text-accent'>Pemuda</span><br>Berprestasi",
+    "description": "Membangun generasi muda yang aktif, kreatif, dan berkarakter melalui program kegiatan yang inovatif dan berdaya guna untuk kemajuan lingkungan.",
+    "cta": {
+      "join": "Gabung Sekarang",
+      "programs": "Lihat Program"
+    }
+  },
+  "about": {
+    "label": "Tentang Kami",
+    "title": "Membangun Karakter Pemuda",
+    "description1": "Sukamaju Hub merupakan wadah organisasi kepemudaan yang berkomitmen untuk mengembangkan potensi dan bakat generasi muda di lingkungan Kelurahan Cilodong.",
+    "description2": "Melalui berbagai program kegiatan sosial, pendidikan, dan pengembangan diri, kami berusaha menciptakan pemuda-pemudi yang berkarakter, bertanggung jawab, dan berperan aktif dalam pembangunan masyarakat.",
+    "checks": {
+      "social": "Kegiatan Sosial Kemasyarakatan",
+      "entrepreneurship": "Pengembangan Kewirausahaan",
+      "digital": "Literasi & Transformasi Digital"
+    },
+    "cta": "Selengkapnya",
+    "stats": {
+      "members": "Anggota",
+      "programs": "Program",
+      "collaborations": "Kolaborasi",
+      "hours": "Jam Pengabdian"
+    }
+  },
+  "programs": {
+    "label": "Program Kami",
+    "title": "Kegiatan Unggulan",
+    "subtitle": "Berbagai program yang dirancang untuk mengembangkan potensi pemuda dan bermanfaat bagi masyarakat.",
+    "cta": "Selengkapnya"
+  },
+  "vision": {
+    "title": "Visi Kami",
+    "text": "Menjadi wadah generasi muda Sukamaju yang aktif, kreatif, inovatif, serta berdaya guna dalam membangun masyarakat yang harmonis, mandiri, dan berkelanjutan."
+  },
+  "mission": {
+    "title": "Misi Kami",
+    "items": {
+      "1": "Mengembangkan potensi generasi muda melalui kegiatan sosial, pendidikan, olahraga, seni, dan kewirausahaan.",
+      "2": "Menumbuhkan semangat gotong royong serta kepedulian terhadap lingkungan dan masyarakat.",
+      "3": "Membangun kolaborasi dengan pemerintah, masyarakat, dan berbagai mitra strategis.",
+      "4": "Memanfaatkan teknologi digital sebagai sarana pelayanan, komunikasi, dan pengembangan organisasi.",
+      "5": "Mewujudkan organisasi yang profesional, transparan, inklusif, serta memberikan manfaat nyata bagi masyarakat."
+    }
+  },
+  "testimonials": {
+    "label": "Testimoni",
+    "title": "Apa Kata Mereka?",
+    "subtitle": "Cerita dan pengalaman dari anggota dan mitra Sukamaju Hub."
+  },
+  "cta": {
+    "title": "Siap Bergabung dengan Kami?",
+    "description": "Jadilah bagian dari Sukamaju Hub dan wujudkan potensi terbaikmu bersama kami.",
+    "join": "Daftar Sekarang",
+    "viewAll": "Lihat Galeri"
+  },
+  "footer": {
+    "brandName": "Sukamaju Hub",
+    "brandTag": "Karang Taruna Kel. Sukamaju",
+    "description": "Sukamaju Hub adalah wadah organisasi kepemudaan yang berkomitmen untuk mengembangkan potensi dan bakat generasi muda.",
+    "navigation": "Navigasi",
+    "aboutUs": "Tentang Kami",
+    "services": "Layanan",
+    "registerMember": "Daftar Anggota",
+    "complaintReport": "Laporan & Pengaduan",
+    "donation": "Donasi",
+    "address": "Kel. Cilodong, Kec. Sukamaju, Kota Depok",
+    "allRights": "Hak Cipta Dilindungi",
+    "developedBy": "Dikembangkan untuk Karang Taruna Sukamaju"
+  },
+  "tentang": {
+    "pageLabel": "Profil Kami",
+    "pageTitle": "Tentang Sukamaju Hub",
+    "pageSubtitle": "Mengenal lebih dekat sejarah, visi, misi, dan struktur organisasi Sukamaju Hub.",
+    "sejarah": {
+      "title": "Sejarah Singkat",
+      "p1": "Sukamaju Hub merupakan organisasi kepemudaan yang berdiri pada tahun 2026 sebagai wadah bagi generasi muda di wilayah Kelurahan Cilodong untuk bersatu, berkembang, dan memberikan kontribusi nyata bagi masyarakat.",
+      "p2": "Organisasi ini lahir dari semangat gotong royong, kebersamaan, dan kepedulian sosial dengan tujuan menciptakan ruang kolaborasi yang mampu mengembangkan potensi pemuda dalam berbagai bidang.",
+      "p3": "Sukamaju Hub berkomitmen menjadi motor penggerak kegiatan kepemudaan yang berdampak positif bagi masyarakat melalui berbagai program pemberdayaan dan pengabdian sosial."
+    },
+    "visiTitle": "Visi Kami",
+    "visiText": "Menjadi wadah generasi muda Sukamaju yang aktif, kreatif, inovatif, serta berdaya guna dalam membangun masyarakat yang harmonis, mandiri, dan berkelanjutan melalui semangat kolaborasi dan gotong royong.",
+    "misiTitle": "Misi Kami",
+    "misi": [
+      "Mengembangkan potensi generasi muda melalui kegiatan sosial, pendidikan, olahraga, seni, dan kewirausahaan.",
+      "Menumbuhkan semangat gotong royong serta kepedulian terhadap lingkungan dan masyarakat.",
+      "Membangun kolaborasi dengan pemerintah, masyarakat, dan berbagai mitra strategis.",
+      "Memanfaatkan teknologi digital sebagai sarana pelayanan, komunikasi, dan pengembangan organisasi.",
+      "Mewujudkan organisasi yang profesional, transparan, inklusif, serta memberikan manfaat nyata bagi masyarakat."
+    ],
+    "skTitle": "Surat Keputusan (SK)",
+    "skDesc": "Download dokumen resmi Surat Keputusan Pendirian Sukamaju Hub sebagai bukti legalitas organisasi.",
+    "skBtn": "Download SK",
+    "fokusTitle": "Fokus Kegiatan"
+  },
+  "kegiatan": {
+    "pageLabel": "Kegiatan Kami",
+    "pageTitle": "Program Kerja & Kegiatan",
+    "pageSubtitle": "Berbagai program unggulan yang kami selenggarakan untuk memberikan dampak positif bagi masyarakat.",
+    "upcomingTitle": "Jadwal Mendatang"
+  },
+  "galeri": {
+    "pageLabel": "Dokumentasi",
+    "pageTitle": "Galeri Kegiatan",
+    "pageSubtitle": "Kumpulan momen dan dokumentasi kegiatan Sukamaju Hub dalam melayani masyarakat.",
+    "filter": {
+      "all": "Semua",
+      "sosial": "Sosial",
+      "olahraga": "Olahraga"
+    }
+  },
+  "divisi": {
+    "pageLabel": "Struktur Organisasi",
+    "pageTitle": "Pengurus & Divisi",
+    "pageSubtitle": "Struktur organisasi Sukamaju Hub yang terdiri dari pengurus inti dan berbagai bidang kerja.",
+    "pembinaTitle": "Pembina Organisasi",
+    "pembinaSubtitle": "Peran serta pembina dalam membimbing dan mendukung program kerja.",
+    "pengurusTitle": "Pengurus Harian",
+    "pengurusSubtitle": "Pengurus inti yang menjalankan roda organisasi sehari-hari.",
+    "bidangTitle": "Bidang Kerja",
+    "bidangSubtitle": "Bidang yang menjalankan fungsi dan program kerja.",
+    "mpktSubtitle": "Para penasehat yang memberikan arahan dan masukan strategis.",
+    "prestasiTitle": "Prestasi Organisasi",
+    "prestasiSubtitle": "Pencapaian yang telah diraih sejak berdiri."
+  },
+  "kontak": {
+    "pageLabel": "Hubungi Kami",
+    "pageTitle": "Kontak & Lokasi",
+    "pageSubtitle": "Ada pertanyaan, saran, atau ingin berkolaborasi? Jangan ragu untuk menghubungi kami.",
+    "infoTitle": "Informasi Kontak",
+    "infoDesc": "Hubungi kami melalui media di bawah ini atau kunjungi sekretariat kami langsung.",
+    "formTitle": "Kirim Pesan via WhatsApp",
+    "formDesc": "Isi form di bawah ini dan pesan akan langsung dikirim ke WhatsApp kami.",
+    "formName": "Nama Lengkap",
+    "formSubject": "Subjek",
+    "formMessage": "Pesan",
+    "formBtn": "Kirim ke WhatsApp",
+    "mapTitle": "Lokasi Sekretariat",
+    "socialTitle": "Ikuti Media Sosial Kami",
+    "socialDesc": "Temukan konten dan aktivitas terbaru Sukamaju Hub di media sosial kami.",
+    "modalTitle": "Kirim Pesan?",
+    "modalMsg": "Pesan akan dikirim ke WhatsApp Sukamaju Hub. Lanjutkan?"
+  },
+  "daftar": {
+    "pageLabel": "Registrasi",
+    "pageTitle": "Daftar Jadi Anggota",
+    "pageSubtitle": "Pilih jenis pendaftaran yang sesuai dengan kebutuhan Anda.",
+    "type1Title": "Gabung ke Karang Taruna Kelurahan",
+    "type1Desc": "Menjadi anggota resmi karang taruna tingkat kelurahan. Pilih bidang yang diminati dan ikut berkontribusi dalam program kerja organisasi.",
+    "type2Title": "Membangun Katar di RW",
+    "type2Desc": "Merintis atau mengembangkan karang taruna tingkat RW. Daftarkan RW Anda, sampaikan ide dan kreativitas, bangun potensi pemuda di lingkungan.",
+    "kelSteps": ["Data Diri", "Pilih Bidang", "Konfirmasi"],
+    "rwSteps": ["Data Diri", "Info RW", "Kreativitas", "Konfirmasi"],
+    "dataDiri": {
+      "title": "Data Diri",
+      "desc": "Lengkapi data pribadi Anda dengan benar.",
+      "nama": "Nama Lengkap",
+      "ttl": "Tempat, Tanggal Lahir",
+      "jk": "Jenis Kelamin",
+      "noHP": "Nomor WhatsApp",
+      "alamat": "Alamat Lengkap",
+      "pendidikan": "Pendidikan Terakhir",
+      "pekerjaan": "Pekerjaan / Kegiatan"
+    },
+    "pilihBidang": {
+      "title": "Pilih Bidang",
+      "desc": "Pilih bidang yang Anda minati untuk berkontribusi.",
+      "bidang": "Bidang yang Diminati",
+      "motivasi": "Motivasi Bergabung"
+    },
+    "infoRW": {
+      "title": "Informasi RW",
+      "desc": "Lengkapi data RW dan identitas Anda di lingkungan setempat.",
+      "statusPeran": "Status / Peran Anda",
+      "namaPeran": "Nama Lengkap di Peran Tersebut",
+      "namaRW": "Nama / Nomor RW",
+      "jumlahPemuda": "Jumlah Potensi Pemuda di RW",
+      "ketuaRW": "Nama Ketua RW / Tokoh Masyarakat",
+      "statusKatar": "Status Katar di RW",
+      "visiMisi": "Visi & Misi"
+    },
+    "kreativitas": {
+      "title": "Kreativitas & Ide",
+      "desc": "Sampaikan ide, rencana, dan kreativitas Anda untuk membangun karang taruna di RW.",
+      "ideProgram": "Program Unggulan yang Ingin Dibangun",
+      "potensiLokal": "Potensi Lokal yang Bisa Dimanfaatkan",
+      "targetMasyarakat": "Target Masyarakat yang Ingin Dijangkau",
+      "rencanaAksi": "Rencana Aksi Awal (3 Bulan Pertama)",
+      "dukungan": "Dukungan yang Dibutuhkan",
+      "motivasi": "Motivasi Utama"
+    },
+    "konfirmasi": {
+      "title": "Konfirmasi & Kirim",
+      "desc": "Periksa kembali data Anda sebelum mengirim."
+    },
+    "modal": {
+      "title": "Kirim Pendaftaran?",
+      "msg": "Data pendaftaran akan dikirim ke WhatsApp Sukamaju Hub. Pastikan semua data sudah benar."
+    },
+    "toast": {
+      "sending": "Mengirim formulir pendaftaran...",
+      "sent": "Pendaftaran Terkirim!",
+      "sentMsg": "Formulir akan dibuka di WhatsApp. Terima kasih!"
+    }
+  },
+  "common": {
+    "kembali": "Kembali",
+    "selanjutnya": "Selanjutnya",
+    "ya_kirim": "Ya, Kirim"
+  }
+}

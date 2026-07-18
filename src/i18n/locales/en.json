@@ -1,0 +1,225 @@
+{
+  "nav": {
+    "brandName": "Sukamaju Hub",
+    "brandTag": "Youth Org. Cilodong Village",
+    "home": "Home",
+    "about": "About",
+    "activities": "Activities",
+    "gallery": "Gallery",
+    "divisions": "Divisions",
+    "contact": "Contact",
+    "join": "Join"
+  },
+  "hero": {
+    "badge": "Sukamaju Village Youth Org.",
+    "title": "Realize the Potential of <span class='text-accent'>Youth</span><br>Achievement",
+    "description": "Building an active, creative, and character-driven young generation through innovative and impactful programs for community advancement.",
+    "cta": {
+      "join": "Join Now",
+      "programs": "View Programs"
+    }
+  },
+  "about": {
+    "label": "About Us",
+    "title": "Building Youth Character",
+    "description1": "Sukamaju Hub is a youth organization committed to developing the potential and talents of young people in the Cilodong Village area.",
+    "description2": "Through various social, educational, and self-development programs, we strive to create responsible youths who play an active role in community development.",
+    "checks": {
+      "social": "Community Social Activities",
+      "entrepreneurship": "Entrepreneurship Development",
+      "digital": "Digital Literacy & Transformation"
+    },
+    "cta": "Learn More",
+    "stats": {
+      "members": "Members",
+      "programs": "Programs",
+      "collaborations": "Collaborations",
+      "hours": "Service Hours"
+    }
+  },
+  "programs": {
+    "label": "Our Programs",
+    "title": "Featured Activities",
+    "subtitle": "Various programs designed to develop youth potential and benefit the community.",
+    "cta": "Learn More"
+  },
+  "vision": {
+    "title": "Our Vision",
+    "text": "To become a hub for Sukamaju youth that is active, creative, innovative, and impactful in building a harmonious, independent, and sustainable community."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "items": {
+      "1": "Develop youth potential through social, educational, sports, arts, and entrepreneurship activities.",
+      "2": "Foster the spirit of mutual cooperation and care for the environment and community.",
+      "3": "Build collaboration with government, community, and various strategic partners.",
+      "4": "Leverage digital technology as a means of service, communication, and organizational development.",
+      "5": "Create a professional, transparent, inclusive organization that provides real benefits to the community."
+    }
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "title": "What They Say?",
+    "subtitle": "Stories and experiences from members and partners of Sukamaju Hub."
+  },
+  "cta": {
+    "title": "Ready to Join Us?",
+    "description": "Be part of Sukamaju Hub and realize your best potential with us.",
+    "join": "Register Now",
+    "viewAll": "View Gallery"
+  },
+  "footer": {
+    "brandName": "Sukamaju Hub",
+    "brandTag": "Youth Org. Cilodong Village",
+    "description": "Sukamaju Hub is a youth organization committed to developing the potential and talents of young people.",
+    "navigation": "Navigation",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "registerMember": "Register Member",
+    "complaintReport": "Reports & Complaints",
+    "donation": "Donation",
+    "address": "Cilodong Village, Sukamaju District, Depok City",
+    "allRights": "All Rights Reserved",
+    "developedBy": "Developed for Karang Taruna Sukamaju"
+  },
+  "tentang": {
+    "pageLabel": "Our Profile",
+    "pageTitle": "About Sukamaju Hub",
+    "pageSubtitle": "Learn more about the history, vision, mission, and organizational structure of Sukamaju Hub.",
+    "sejarah": {
+      "title": "Brief History",
+      "p1": "Sukamaju Hub is a youth organization founded in 2026 as a platform for young people in the Cilodong Village area to unite, develop, and make real contributions to the community.",
+      "p2": "This organization was born from the spirit of mutual cooperation, togetherness, and social care with the aim of creating a collaborative space capable of developing youth potential in various fields.",
+      "p3": "Sukamaju Hub is committed to being a driving force for positive youth activities for the community through various empowerment and social service programs."
+    },
+    "visiTitle": "Our Vision",
+    "visiText": "To become a hub for Sukamaju youth that is active, creative, innovative, and impactful in building a harmonious, independent, and sustainable community through the spirit of collaboration and mutual cooperation.",
+    "misiTitle": "Our Mission",
+    "misi": [
+      "Develop youth potential through social, educational, sports, arts, and entrepreneurship activities.",
+      "Foster the spirit of mutual cooperation and care for the environment and community.",
+      "Build collaboration with government, community, and various strategic partners.",
+      "Leverage digital technology as a means of service, communication, and organizational development.",
+      "Create a professional, transparent, inclusive organization that provides real benefits to the community."
+    ],
+    "skTitle": "Decree (SK)",
+    "skDesc": "Download the official establishment decree of Sukamaju Hub as proof of organizational legality.",
+    "skBtn": "Download SK",
+    "fokusTitle": "Focus Areas"
+  },
+  "kegiatan": {
+    "pageLabel": "Our Activities",
+    "pageTitle": "Work Programs & Activities",
+    "pageSubtitle": "Various flagship programs we organize to provide positive impact for the community.",
+    "upcomingTitle": "Upcoming Schedule"
+  },
+  "galeri": {
+    "pageLabel": "Documentation",
+    "pageTitle": "Activity Gallery",
+    "pageSubtitle": "A collection of moments and documentation of Sukamaju Hub activities in serving the community.",
+    "filter": {
+      "all": "All",
+      "sosial": "Social",
+      "olahraga": "Sports"
+    }
+  },
+  "divisi": {
+    "pageLabel": "Organization Structure",
+    "pageTitle": "Board & Divisions",
+    "pageSubtitle": "Organizational structure of Sukamaju Hub consisting of core administrators and various working divisions.",
+    "pembinaTitle": "Organization Advisors",
+    "pembinaSubtitle": "Advisors who guide and support work programs.",
+    "pengurusTitle": "Daily Board",
+    "pengurusSubtitle": "Core administrators who run the organization daily.",
+    "bidangTitle": "Working Divisions",
+    "bidangSubtitle": "Divisions that carry out functions and work programs.",
+    "mpktSubtitle": "Advisors who provide strategic direction and input.",
+    "prestasiTitle": "Organization Achievements",
+    "prestasiSubtitle": "Accomplishments achieved since establishment."
+  },
+  "kontak": {
+    "pageLabel": "Contact Us",
+    "pageTitle": "Contact & Location",
+    "pageSubtitle": "Have questions, suggestions, or want to collaborate? Don't hesitate to contact us.",
+    "infoTitle": "Contact Information",
+    "infoDesc": "Contact us through the information below or visit our office directly.",
+    "formTitle": "Send Message via WhatsApp",
+    "formDesc": "Fill out the form below and the message will be sent directly to our WhatsApp.",
+    "formName": "Full Name",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formBtn": "Send to WhatsApp",
+    "mapTitle": "Office Location",
+    "socialTitle": "Follow Our Social Media",
+    "socialDesc": "Find the latest content and activities of Sukamaju Hub on our social media.",
+    "modalTitle": "Send Message?",
+    "modalMsg": "The message will be sent to Sukamaju Hub WhatsApp. Continue?"
+  },
+  "daftar": {
+    "pageLabel": "Registration",
+    "pageTitle": "Register as Member",
+    "pageSubtitle": "Choose the registration type that suits your needs.",
+    "type1Title": "Join Sukamaju Village Youth Org.",
+    "type1Desc": "Become an official youth organization member at village level. Choose your field of interest and contribute to organizational work programs.",
+    "type2Title": "Build Youth Org. at RW Level",
+    "type2Desc": "Pioneer or develop youth organization at RW level. Register your RW, share ideas and creativity, build youth potential in your area.",
+    "kelSteps": ["Personal Data", "Choose Field", "Confirmation"],
+    "rwSteps": ["Personal Data", "RW Info", "Creativity", "Confirmation"],
+    "dataDiri": {
+      "title": "Personal Data",
+      "desc": "Complete your personal data correctly.",
+      "nama": "Full Name",
+      "ttl": "Place, Date of Birth",
+      "jk": "Gender",
+      "noHP": "WhatsApp Number",
+      "alamat": "Full Address",
+      "pendidikan": "Last Education",
+      "pekerjaan": "Occupation / Activity"
+    },
+    "pilihBidang": {
+      "title": "Choose Field",
+      "desc": "Select the field you are interested in to contribute.",
+      "bidang": "Field of Interest",
+      "motivasi": "Motivation to Join"
+    },
+    "infoRW": {
+      "title": "RW Information",
+      "desc": "Complete RW data and your identity in the local area.",
+      "statusPeran": "Your Status / Role",
+      "namaPeran": "Full Name in That Role",
+      "namaRW": "RW Name / Number",
+      "jumlahPemuda": "Estimated Youth Potential in RW",
+      "ketuaRW": "RW Head / Community Leader Name",
+      "statusKatar": "Youth Org. Status at RW",
+      "visiMisi": "Vision & Mission"
+    },
+    "kreativitas": {
+      "title": "Creativity & Ideas",
+      "desc": "Share your ideas, plans, and creativity to build youth organization at RW.",
+      "ideProgram": "Flagship Program to Build",
+      "potensiLokal": "Local Potential to Utilize",
+      "targetMasyarakat": "Target Community to Reach",
+      "rencanaAksi": "Initial Action Plan (First 3 Months)",
+      "dukungan": "Support Needed",
+      "motivasi": "Main Motivation"
+    },
+    "konfirmasi": {
+      "title": "Confirm & Submit",
+      "desc": "Please review your data before submitting."
+    },
+    "modal": {
+      "title": "Submit Registration?",
+      "msg": "Registration data will be sent to Sukamaju Hub WhatsApp. Make sure all data is correct."
+    },
+    "toast": {
+      "sending": "Submitting registration form...",
+      "sent": "Registration Submitted!",
+      "sentMsg": "The form will be opened in WhatsApp. Thank you!"
+    }
+  },
+  "common": {
+    "kembali": "Back",
+    "selanjutnya": "Next",
+    "ya_kirim": "Yes, Send"
+  }
+}

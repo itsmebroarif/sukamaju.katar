@@ -1,0 +1,276 @@
+{
+    "organization": "Karang Taruna Kelurahan Sukamaju",
+    "region": {
+        "kelurahan": "Sukamaju",
+        "kecamatan": "Cilodong",
+        "kota": "Depok"
+    },
+    "leadership": [
+        {
+            "division": "Pembina Umum",
+            "members": [
+                {
+                    "name": "Lurah Sukamaju",
+                    "role": "Pembina Umum"
+                }
+            ]
+        },
+        {
+            "division": "Pembina Teknis",
+            "members": [
+                {
+                    "name": "Kasie Kemasyarakatan",
+                    "role": "Pembina Teknis"
+                },
+                {
+                    "name": "Babinsa",
+                    "role": "Pembina Teknis"
+                },
+                {
+                    "name": "Babinkamtibmas",
+                    "role": "Pembina Teknis"
+                }
+            ]
+        },
+        {
+            "division": "Pengurus Harian",
+            "members": [
+                {
+                    "name": "Ary Prasetio, ST",
+                    "role": "Ketua"
+                },
+                {
+                    "name": "Luthfi Fathurrozi, SH",
+                    "role": "Wakil Ketua 1"
+                },
+                {
+                    "name": "Alex Lesmana",
+                    "role": "Sekretaris 1"
+                },
+                {
+                    "name": "Amelia Agustina",
+                    "role": "Sekretaris 2"
+                },
+                {
+                    "name": "Suqria Isnaeni",
+                    "role": "Bendahara 1"
+                },
+                {
+                    "name": "Kaleb Mico Puntosakti",
+                    "role": "Bendahara 2"
+                }
+            ]
+        }
+    ],
+    "divisions": [
+        {
+            "name": "Bidang Pengembangan Koperasi, Kewirausahaan dan Kepariwisataan",
+            "members": [
+                {
+                    "name": "Genta Mahendra",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Choerullah Ayub, S.T",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Ivan Novendra",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Edi Marlon Siahaan",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Riska Chalvi Warisi",
+                    "role": "Anggota"
+                }
+            ]
+        },
+        {
+            "name": "Bidang Organisasi, SDM dan Diklat",
+            "members": [
+                {
+                    "name": "Alvin Arya. A",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Ninditia Putri Priliyanti, S.Pd",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Ricardo Paul Win Bacas",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Mita Madinah, SE",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Vinda Jazika",
+                    "role": "Anggota"
+                }
+            ]
+        },
+        {
+            "name": "Bidang Kesejahteraan Sosial dan Pelayanan Sosial",
+            "members": [
+                {
+                    "name": "Rahmat F.",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Nanda Aqila",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Syahsiyatul Ummah",
+                    "role": "Anggota"
+                }
+            ]
+        },
+        {
+            "name": "Bidang Lingkungan Hidup, Pertanian dan Perikanan",
+            "members": [
+                {
+                    "name": "Muhammad Sofyan",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Muhammad Rafly Kusnadi",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Bayu Permana",
+                    "role": "Anggota"
+                }
+            ]
+        },
+        {
+            "name": "Bidang Pemberdayaan Perempuan dan Perlindungan Anak",
+            "members": [
+                {
+                    "name": "Andi Halifah Octaviasyari",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Nazhwa Davina Nibras",
+                    "role": "Anggota"
+                }
+            ]
+        },
+        {
+            "name": "Bidang Kerohanian, Olah Raga dan Seni Budaya",
+            "members": [
+                {
+                    "name": "Achmad Nur Irfansyah",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Jihad Farizqon Mubharok",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Dzakwaan Hari Abdurrahmaan",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Randi Erlambang",
+                    "role": "Anggota"
+                }
+            ]
+        },
+        {
+            "name": "Bidang Humas dan Hukum Advokasi",
+            "members": [
+                {
+                    "name": "Supriyadi",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Rangga Ramadhan",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Iwan Supendi",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Jaka Darmawan",
+                    "role": "Anggota"
+                }
+            ]
+        },
+        {
+            "name": "Bidang Multimedia Dan Sistem Informasi",
+            "members": [
+                {
+                    "name": "Arif Permana Putrasuryana",
+                    "role": "Tech Leader"
+                },
+                {
+                    "name": "M. Gamal Zaimi",
+                    "role": "CO-Tech Leader"
+                },
+                {
+                    "name": "M. Andri Prasetyo, S.Kom",
+                    "role": "Anggota"
+                },
+                {
+                    "name": "Amelia Agustina",
+                    "role": "Dokumentasi"
+                },
+                {
+                    "name": "Suqria Isnaeni",
+                    "role": "Content-Writer 1"
+                },
+                {
+                    "name": "Kaleb Mico Puntosakti",
+                    "role": "Content-Designer 2"
+                }
+            ]
+        }
+    ],
+    "advisory_board": {
+        "name": "Majelis Pertimbangan Karang Taruna (MPKT)",
+        "members": [
+            {
+                "name": "Hendra Dimun, S.H",
+                "role": "Penasehat"
+            },
+            {
+                "name": "Kusmawan",
+                "role": "Penasehat"
+            },
+            {
+                "name": "Tajudin",
+                "role": "Penasehat"
+            },
+            {
+                "name": "Setiyo Sudiyono",
+                "role": "Penasehat"
+            },
+            {
+                "name": "Maddawi Heri Mulya",
+                "role": "Penasehat"
+            },
+            {
+                "name": "H. Edi Santoso",
+                "role": "Penasehat"
+            },
+            {
+                "name": "Wahyuni Handayani Rum",
+                "role": "Penasehat"
+            },
+            {
+                "name": "Maryono",
+                "role": "Penasehat"
+            },
+            {
+                "name": "Muhadi",
+                "role": "Penasehat"
+            }
+        ]
+    }
+}
