@@ -100,11 +100,19 @@ export default {
   overflow: hidden;
 }
 
+[data-theme="dark"] .hero {
+  background: linear-gradient(160deg, #0F172A 0%, #111827 30%, #064E3B 60%, #1E3A5F 100%);
+}
+
 .hero-overlay {
   position: absolute;
   inset: 0;
   background: linear-gradient(135deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 50%);
   pointer-events: none;
+}
+
+[data-theme="dark"] .hero-overlay {
+  background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 50%);
 }
 
 .hero-container {
@@ -134,10 +142,10 @@ export default {
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  background: #fff;
+  background: var(--bg-card);
   color: var(--text-primary);
   border: 1px solid var(--border-light);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  box-shadow: var(--shadow-xs);
 }
 
 .badge-logo {
@@ -260,9 +268,9 @@ export default {
   align-items: center;
   gap: 12px;
   padding: 16px 20px;
-  background: #fff;
+  background: var(--bg-card);
   border-radius: 14px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  box-shadow: var(--shadow-sm);
   border: 1px solid var(--border-light);
   animation: float 6s ease-in-out infinite;
 }

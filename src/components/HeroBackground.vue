@@ -13,13 +13,16 @@ export default {
       width: 0,
       height: 0,
       mouseX: 0,
-      mouseY: 0
+      mouseY: 0,
+      isDark: false
     }
   },
   methods: {
     init() {
       const canvas = this.$refs.canvas
       if (!canvas) return
+
+      this.isDark = document.documentElement.getAttribute('data-theme') === 'dark'
 
       const ctx = canvas.getContext('2d')
       this.resize()
@@ -49,6 +52,8 @@ export default {
     },
     createNodes(count) {
       const nodes = []
+      const baseOpacity = this.isDark ? 0.15 : 0.2
+      const opacityRange = this.isDark ? 0.25 : 0.4
       for (let i = 0; i < count; i++) {
         nodes.push({
           x: Math.random() * this.width,
@@ -56,13 +61,15 @@ export default {
           vx: (Math.random() - 0.5) * 0.3,
           vy: (Math.random() - 0.5) * 0.3,
           radius: Math.random() * 2 + 1.5,
-          opacity: Math.random() * 0.4 + 0.2
+          opacity: Math.random() * opacityRange + baseOpacity
         })
       }
       return nodes
     },
     createParticles(count) {
       const particles = []
+      const baseOpacity = this.isDark ? 0.05 : 0.1
+      const opacityRange = this.isDark ? 0.15 : 0.3
       for (let i = 0; i < count; i++) {
         particles.push({
           x: Math.random() * this.width,
@@ -70,14 +77,38 @@ export default {
           vx: (Math.random() - 0.5) * 0.2,
           vy: (Math.random() - 0.5) * 0.15 - 0.1,
           radius: Math.random() * 1.5 + 0.5,
-          opacity: Math.random() * 0.3 + 0.1
+          opacity: Math.random() * opacityRange + baseOpacity
         })
       }
       return particles
     },
+    getGridColor() {
+      return this.isDark ? 'rgba(255, 255, 255, 0.02)' : 'rgba(255, 255, 255, 0.035)'
+    },
+    getNodeColor(opacity) {
+      return this.isDark ? `rgba(148, 163, 184, ${opacity})` : `rgba(255, 255, 255, ${opacity})`
+    },
+    getParticleColor(opacity) {
+      return this.isDark ? `rgba(148, 163, 184, ${opacity})` : `rgba(255, 255, 255, ${opacity})`
+    },
+    getConnectionColor(alpha) {
+      return this.isDark ? `rgba(234, 179, 8, ${alpha})` : `rgba(234, 179, 8, ${alpha})`
+    },
+    getGlowColors() {
+      if (this.isDark) {
+        return {
+          primary: ['rgba(234, 179, 8, 0.04)', 'rgba(234, 179, 8, 0.015)', 'rgba(234, 179, 8, 0)'],
+          secondary: ['rgba(220, 38, 38, 0.03)', 'rgba(220, 38, 38, 0.01)', 'rgba(220, 38, 38, 0)']
+        }
+      }
+      return {
+        primary: ['rgba(234, 179, 8, 0.08)', 'rgba(234, 179, 8, 0.03)', 'rgba(234, 179, 8, 0)'],
+        secondary: ['rgba(220, 38, 38, 0.06)', 'rgba(220, 38, 38, 0.02)', 'rgba(220, 38, 38, 0)']
+      }
+    },
     drawGrid(ctx) {
       const spacing = 60
-      ctx.strokeStyle = 'rgba(255, 255, 255, 0.035)'
+      ctx.strokeStyle = this.getGridColor()
       ctx.lineWidth = 0.5
 
       for (let x = 0; x <= this.width; x += spacing) {
@@ -111,7 +142,7 @@ export default {
 
           if (dist < connectionDistance) {
             const alpha = (1 - dist / connectionDistance) * 0.15
-            ctx.strokeStyle = `rgba(234, 179, 8, ${alpha})`
+            ctx.strokeStyle = this.getConnectionColor(alpha)
             ctx.lineWidth = 0.6
             ctx.beginPath()
             ctx.moveTo(a.x, a.y)
@@ -120,7 +151,7 @@ export default {
           }
         }
 
-        ctx.fillStyle = `rgba(255, 255, 255, ${a.opacity})`
+        ctx.fillStyle = this.getNodeColor(a.opacity)
         ctx.beginPath()
         ctx.arc(a.x, a.y, a.radius, 0, Math.PI * 2)
         ctx.fill()
@@ -136,7 +167,7 @@ export default {
         if (p.y < 0) p.y = this.height
         if (p.y > this.height) p.y = 0
 
-        ctx.fillStyle = `rgba(255, 255, 255, ${p.opacity})`
+        ctx.fillStyle = this.getParticleColor(p.opacity)
         ctx.beginPath()
         ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2)
         ctx.fill()
@@ -147,10 +178,11 @@ export default {
       const cy = this.height * 0.3
       const r = Math.min(this.width, this.height) * 0.4
 
+      const glow = this.getGlowColors()
       const grad = ctx.createRadialGradient(cx, cy, 0, cx, cy, r)
-      grad.addColorStop(0, 'rgba(234, 179, 8, 0.08)')
-      grad.addColorStop(0.5, 'rgba(234, 179, 8, 0.03)')
-      grad.addColorStop(1, 'rgba(234, 179, 8, 0)')
+      grad.addColorStop(0, glow.primary[0])
+      grad.addColorStop(0.5, glow.primary[1])
+      grad.addColorStop(1, glow.primary[2])
       ctx.fillStyle = grad
       ctx.fillRect(0, 0, this.width, this.height)
 
@@ -159,9 +191,9 @@ export default {
       const r2 = Math.min(this.width, this.height) * 0.35
 
       const grad2 = ctx.createRadialGradient(cx2, cy2, 0, cx2, cy2, r2)
-      grad2.addColorStop(0, 'rgba(220, 38, 38, 0.06)')
-      grad2.addColorStop(0.5, 'rgba(220, 38, 38, 0.02)')
-      grad2.addColorStop(1, 'rgba(220, 38, 38, 0)')
+      grad2.addColorStop(0, glow.secondary[0])
+      grad2.addColorStop(0.5, glow.secondary[1])
+      grad2.addColorStop(1, glow.secondary[2])
       ctx.fillStyle = grad2
       ctx.fillRect(0, 0, this.width, this.height)
     },
@@ -174,14 +206,28 @@ export default {
       this.drawNodes(ctx)
 
       this.animationId = requestAnimationFrame(() => this.animate(ctx))
+    },
+    handleThemeChange() {
+      const newIsDark = document.documentElement.getAttribute('data-theme') === 'dark'
+      if (newIsDark !== this.isDark) {
+        this.isDark = newIsDark
+        this.nodes = this.createNodes(this.nodes.length)
+        this.particles = this.createParticles(this.particles.length)
+      }
     }
   },
   mounted() {
     this.init()
+    window.addEventListener('storage', this.handleThemeChange)
+    const observer = new MutationObserver(this.handleThemeChange)
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] })
+    this._themeObserver = observer
   },
   unmounted() {
     if (this.animationId) cancelAnimationFrame(this.animationId)
     window.removeEventListener('resize', this.resize)
+    window.removeEventListener('storage', this.handleThemeChange)
+    if (this._themeObserver) this._themeObserver.disconnect()
   }
 }
 </script>
