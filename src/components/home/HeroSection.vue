@@ -324,14 +324,32 @@ export default {
 }
 
 @media (max-width: 768px) {
-  .hero { min-height: 78vh; }
-  .hero h1 { font-size: 1.85rem; }
-  .hero-desc { font-size: 0.95rem; }
-  .hero-content { padding: 80px 20px 60px; }
-  .hero-badge { font-size: 0.72rem; padding: 6px 14px; }
-  .orb-1 { width: 350px; height: 350px; top: -120px; right: -100px; }
-  .orb-2 { width: 250px; height: 250px; bottom: -80px; left: -80px; }
-  .orb-3 { display: none; }
-  .orb-4 { display: none; }
+  .hero { min-height: auto; padding: 40px 0 60px; }
+  .hero-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px 40px;
+    gap: 40px;
+  }
+  .hero-left { max-width: 100%; }
+  .hero h1 { font-size: 1.75rem; }
+  .hero-desc { font-size: 0.95rem; margin-bottom: 24px; }
+  .hero-badge { font-size: 0.68rem; padding: 5px 12px 5px 5px; }
+  .badge-logo { width: 20px; height: 20px; }
+  .hero-cta { margin-bottom: 28px; }
+  .btn-primary-hero, .btn-outline-hero { padding: 12px 22px; font-size: 0.85rem; }
+  .hero-stats { gap: 20px; flex-wrap: wrap; }
+  .hero-stat-num { font-size: 1.3rem; }
+  .hero-right { display: none; }
+  .hero-scroll { display: none; }
+}
+
+@media (max-width: 480px) {
+  .hero-container { padding: 50px 16px 32px; }
+  .hero h1 { font-size: 1.5rem; }
+  .hero-desc { font-size: 0.88rem; }
+  .hero-cta { flex-direction: column; }
+  .btn-primary-hero, .btn-outline-hero { width: 100%; justify-content: center; }
+  .hero-stats { gap: 16px; }
+  .hero-stat-num { font-size: 1.15rem; }
 }
 </style>

@@ -9,6 +9,7 @@
         </div>
       </router-link>
 
+      <div class="navbar-backdrop" :class="{ open: menuOpen }" @click="menuOpen = false"></div>
       <div class="navbar-links" :class="{ open: menuOpen }">
         <router-link to="/" class="nav-link" @click="menuOpen = false"
           >{{ t('nav.home') }}</router-link
@@ -89,7 +90,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, watch, onMounted, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 const { t, locale } = useI18n()
@@ -110,6 +111,10 @@ const handleScroll = () => {
   isScrolled.value = window.scrollY > 20
 }
 
+watch(menuOpen, (val) => {
+  document.body.style.overflow = val ? 'hidden' : ''
+})
+
 onMounted(() => {
   window.addEventListener('scroll', handleScroll)
   handleScroll()
@@ -117,6 +122,7 @@ onMounted(() => {
 
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
+  document.body.style.overflow = ''
 })
 </script>
 
@@ -177,6 +183,7 @@ onUnmounted(() => {
   font-size: 1.05rem;
   color: var(--text-primary);
   letter-spacing: -0.01em;
+  white-space: nowrap;
 }
 
 .brand-tag {
@@ -224,6 +231,10 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+.navbar-backdrop {
+  display: none;
 }
 
 .theme-toggle {
@@ -297,6 +308,27 @@ onUnmounted(() => {
 }
 
 @media (max-width: 900px) {
+  .navbar-backdrop {
+    display: block;
+    position: fixed;
+    top: var(--navbar-height);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition);
+    z-index: 998;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+
+  .navbar-backdrop.open {
+    opacity: 1;
+    visibility: visible;
+  }
+
   .hamburger {
     display: flex;
   }
@@ -315,6 +347,7 @@ onUnmounted(() => {
     transition: var(--transition);
     z-index: 999;
     align-items: stretch;
+    overflow-y: auto;
   }
 
   .navbar-links.open {
@@ -332,6 +365,19 @@ onUnmounted(() => {
     margin-top: 12px;
     justify-content: center;
     padding: 13px 20px;
+  }
+
+  .brand-name {
+    font-size: 0.92rem;
+  }
+
+  .brand-tag {
+    font-size: 0.58rem;
+  }
+
+  .brand-logo {
+    width: 32px;
+    height: 32px;
   }
 }
 </style>

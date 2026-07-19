@@ -399,8 +399,13 @@ Dikirim melalui form kontak website`
 }
 
 @media (max-width: 768px) {
-  .page-title { font-size: 1.8rem; }
+  .page-title { font-size: 1.75rem; }
   .kontak-grid { grid-template-columns: 1fr; }
   .social-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 480px) {
+  .page-title { font-size: 1.45rem; }
+  .social-grid { grid-template-columns: 1fr; }
 }
 </style>

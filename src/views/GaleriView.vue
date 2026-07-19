@@ -336,8 +336,14 @@ function prevImage() {
 }
 
 @media (max-width: 768px) {
-  .page-title { font-size: 1.8rem; }
+  .page-title { font-size: 1.75rem; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
   .gallery-item.large { grid-column: span 2; grid-row: span 1; }
+}
+
+@media (max-width: 480px) {
+  .page-title { font-size: 1.45rem; }
+  .gallery-grid { grid-template-columns: 1fr; }
+  .gallery-item.large { grid-column: span 1; }
 }
 </style>

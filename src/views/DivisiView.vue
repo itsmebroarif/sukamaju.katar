@@ -460,7 +460,7 @@ function shortenBidang(name) {
 }
 
 @media (max-width: 768px) {
-  .page-title { font-size: 1.8rem; }
+  .page-title { font-size: 1.75rem; }
   .pembina-grid { grid-template-columns: 1fr; }
   .pengurus-grid { grid-template-columns: repeat(2, 1fr); }
   .bidang-grid { grid-template-columns: 1fr; }
@@ -470,6 +470,7 @@ function shortenBidang(name) {
 }
 
 @media (max-width: 480px) {
+  .page-title { font-size: 1.45rem; }
   .pengurus-grid { grid-template-columns: 1fr; }
   .mpkt-grid { grid-template-columns: 1fr; }
 }

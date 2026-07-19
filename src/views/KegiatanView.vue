@@ -281,7 +281,11 @@ const upcomingEvents = [
 }
 
 @media (max-width: 768px) {
-  .page-title { font-size: 1.8rem; }
+  .page-title { font-size: 1.75rem; }
   .events-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .page-title { font-size: 1.45rem; }
 }
 </style>

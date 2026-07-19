@@ -72,4 +72,8 @@ export default {
 @media (max-width: 768px) {
   .cta-content h2 { font-size: 1.75rem; }
 }
+
+@media (max-width: 480px) {
+  .cta-content h2 { font-size: 1.45rem; }
+}
 </style>

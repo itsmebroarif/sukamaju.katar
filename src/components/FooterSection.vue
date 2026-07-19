@@ -183,4 +183,8 @@ const { t } = useI18n()
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .footer-bottom { flex-direction: column; gap: 6px; text-align: center; }
 }
+
+@media (max-width: 480px) {
+  .footer-grid { gap: 24px; }
+}
 </style>

@@ -179,4 +179,8 @@ export default {
   .about-right { order: -1; }
   .about-cards { grid-template-columns: 1fr 1fr; gap: 10px; }
 }
+
+@media (max-width: 480px) {
+  .about-cards { grid-template-columns: 1fr; }
+}
 </style>

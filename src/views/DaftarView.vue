@@ -857,7 +857,7 @@ Dikirim melalui form pendaftaran website`
 }
 
 @media (max-width: 768px) {
-  .page-title { font-size: 1.8rem; }
+  .page-title { font-size: 1.75rem; }
   .type-selection { grid-template-columns: 1fr; }
   .type-card { padding: 28px 24px; }
   .wizard-content { padding: 24px; }
@@ -867,5 +867,10 @@ Dikirim melalui form pendaftaran website`
   .confirm-grid { grid-template-columns: 1fr; }
   .confirm-item.full-width { grid-column: span 1; }
   .step-label { display: none; }
+}
+
+@media (max-width: 480px) {
+  .page-title { font-size: 1.45rem; }
+  .wizard-content { padding: 16px; }
 }
 </style>

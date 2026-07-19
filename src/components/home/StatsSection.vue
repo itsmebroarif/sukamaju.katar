@@ -126,4 +126,9 @@ export default {
   .stat-icon { width: 40px; height: 40px; }
   .stat-number { font-size: 1.25rem; }
 }
+
+@media (max-width: 480px) {
+  .stats-grid { grid-template-columns: 1fr; gap: 10px; }
+  .stat-item { padding: 14px; }
+}
 </style>
